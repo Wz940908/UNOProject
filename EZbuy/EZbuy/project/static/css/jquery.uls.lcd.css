@@ -1,0 +1,32 @@
+.uls-no-results-view {
+	color: #555;
+	height: 100%;
+}
+
+.uls-no-found-more {
+	font-size: 0.9em;
+	background: #F8F8F8;
+	width: 100%;
+	margin-top: 1.6em;
+	line-height: 1.6em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.uls-no-found-more a {
+	cursor: pointer;
+}
+
+@media (max-width: 480px){	
+	.uls-language-list a {
+		font-size: 13px;
+		line-height: 1.8em;
+	}
+}
+@media (max-width: 414px){	
+	.uls-menu .uls-language-block .columns {
+		width: 32%;
+		margin-left: 8.333%;
+	}
+}
